@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Drogaria Santo Antônio - Farmácia, cosméticos, perfumaria e produtos de higiene pessoal em Guarujá - SP.">
-  <meta name="keywords" content="drogaria, farmácia, medicamentos, cosméticos, perfumaria, Guarujá, Vila Santa Rosa">
+  <meta name="description" content="Drogaria Santo Antônio - Medicamentos, cosméticos, perfumaria e higiene pessoal no Guarujá - SP. Atendimento próximo e preço justo.">
+  <meta name="keywords" content="drogaria, farmácia, medicamentos, cosméticos, perfumaria, higiene, Guarujá, Vila Santa Rosa, São Paulo">
   <meta name="author" content="DROGARIA SANTO ANTONIO III DO GUARUJA LTDA">
   <meta name="geo.region" content="BR-SP">
   <meta name="geo.placename" content="GUARUJA">
-  <title>Drogaria Santo Antônio | Guarujá/SP</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231a6b4a'/><text y='.9em' font-size='44' font-family='sans-serif' font-weight='800' fill='%23e85e5e' x='16'>DS</text></svg>">
+  <title>Drogaria Santo Antônio | Farmácia &amp; Conveniência – Guarujá/SP</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='8' fill='%231a6b4a'/><text y='.9em' font-size='42' font-family='sans-serif' font-weight='800' fill='%23f25c5c' x='16'>DS</text></svg>">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
-      --primary: #1a6b4a; --primary-dark: #0e4a32; --primary-deep: #062a1c; --primary-light: #3a9070;
-      --accent: #d92c2c; --accent-dark: #a31818; --accent-light: #e85e5e;
+      --primary: #1a6b4a; --primary-dark: #145239; --primary-deep: #0d3826; --primary-light: #2e8a63;
+      --accent: #d92c2c; --accent-dark: #b01f1f; --accent-light: #f25c5c;
       --gold: #d4a04a; --gold-light: #e8be7a;
-      --bg: #f4f8f5; --bg-2: #e0ebe4; --paper: #fafdfb; --white: #ffffff;
-      --ink: #0e1a14; --ink-soft: #3e4a44; --grey: #7e8a82;
+      --bg: #f1f7f4; --bg-2: #dcebe4; --paper: #f8fdfa; --white: #ffffff;
+      --ink: #0e2419; --ink-soft: #3d5147; --grey: #7a8b82;
       --line: rgba(26,107,74,0.16);
       --font-display: 'DM Sans', sans-serif; --font-body: 'Inter', sans-serif; --font-extra: 'Inter', sans-serif;
     }
@@ -30,7 +30,7 @@
 
     nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; padding: 0 4vw; height: 80px; background: rgba(255,255,255,0.96); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
     .nav-logo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
-    .nav-logo-badge { width: 48px; height: 48px; background: var(--primary); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 18px; color: var(--accent-light); font-weight: 800; box-shadow: 0 6px 16px rgba(26,107,74,0.28); }
+    .nav-logo-badge { width: 48px; height: 48px; background: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 18px; color: var(--accent-light); font-weight: 800; box-shadow: 0 6px 16px rgba(26,107,74,0.28); }
     .nav-logo-text { font-family: var(--font-display); font-size: 1.3rem; color: var(--primary-dark); font-weight: 700; letter-spacing: -0.3px; }
     .nav-logo-text span { color: var(--accent-dark); font-weight: 500; }
     .nav-links { display: flex; gap: 2.4rem; list-style: none; }
@@ -41,7 +41,7 @@
     .nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 6px; }
     .nav-hamburger span { display: block; width: 26px; height: 2px; background: var(--primary-dark); transition: all 0.3s; }
 
-    #hero { min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; padding: 130px 4vw 80px; background: linear-gradient(135deg, #062a1c 0%, #0e4a32 55%, #1a6b4a 100%); color: var(--white); }
+    #hero { min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; padding: 130px 4vw 80px; background: linear-gradient(135deg, #0d3826 0%, #145239 55%, #1a6b4a 100%); color: var(--white); }
     .hero-ornament { position: absolute; right: 5%; top: 50%; transform: translateY(-50%); width: 380px; height: 380px; pointer-events: none; opacity: 0.18; }
     .hero-content { position: relative; z-index: 1; max-width: 760px; }
     .hero-tag { display: inline-flex; align-items: center; gap: 12px; background: rgba(255,255,255,0.08); border: 1px solid var(--accent); padding: 0.55rem 1.3rem; border-radius: 30px; font-family: var(--font-body); font-size: 0.76rem; font-weight: 500; color: var(--accent-light); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 1.8rem; }
@@ -51,8 +51,8 @@
     .hero h1 .thin { font-weight: 300; }
     .hero-desc { font-family: var(--font-body); font-size: 1.1rem; line-height: 1.75; color: rgba(255,255,255,0.78); max-width: 560px; margin-bottom: 2.4rem; }
     .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
-    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: var(--primary-deep); font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.3px; text-decoration: none; padding: 1rem 2.2rem; border: none; cursor: pointer; border-radius: 30px; transition: background 0.25s, transform 0.2s; box-shadow: 0 6px 20px rgba(26,107,74,0.30); }
-    .btn-primary:hover { background: var(--accent-light); transform: translateY(-2px); }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: var(--white); font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.3px; text-decoration: none; padding: 1rem 2.2rem; border: none; cursor: pointer; border-radius: 30px; transition: background 0.25s, transform 0.2s; box-shadow: 0 6px 20px rgba(13,56,38,0.30); }
+    .btn-primary:hover { background: var(--accent-dark); transform: translateY(-2px); }
     .btn-secondary { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--white); color: var(--white); background: transparent; font-family: var(--font-body); font-size: 0.95rem; font-weight: 600; letter-spacing: 0.3px; text-decoration: none; padding: 0.9rem 2.2rem; border-radius: 30px; transition: all 0.25s; }
     .btn-secondary:hover { background: var(--white); color: var(--primary-deep); }
     .hero-stats { margin-top: 4rem; display: flex; gap: 3.5rem; flex-wrap: wrap; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.12); }
@@ -94,18 +94,15 @@
     .service-card h3 { font-family: var(--font-display); font-size: 1.25rem; color: var(--primary-dark); margin-bottom: 0.7rem; font-weight: 700; }
     .service-card p { font-family: var(--font-body); font-size: 0.96rem; color: var(--ink-soft); line-height: 1.65; }
 
-    #depoimentos { padding: 110px 0; background: var(--white); }
-    .testimonials-header { margin-bottom: 3.5rem; text-align: center; }
-    .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.8rem; }
-    .testimonial-card { background: var(--bg); padding: 2.4rem 2rem; position: relative; border-radius: 14px; transition: all 0.3s; border-left: 3px solid var(--primary); }
-    .testimonial-card:hover { border-left-color: var(--accent); transform: translateY(-4px); }
-    .testimonial-card::before { content: '"'; font-family: var(--font-display); font-size: 4.8rem; line-height: 1; color: var(--primary); opacity: 0.32; position: absolute; top: 0.5rem; left: 1.5rem; font-weight: 700; }
-    .testimonial-text { font-family: var(--font-body); font-size: 0.98rem; line-height: 1.75; color: var(--ink-soft); margin-top: 1.5rem; margin-bottom: 1.5rem; font-style: italic; }
-    .testimonial-author { display: flex; align-items: center; gap: 0.9rem; }
-    .author-avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--primary); color: var(--accent-light); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; }
-    .author-name { font-family: var(--font-display); font-size: 1rem; color: var(--primary-dark); font-weight: 700; }
-    .author-role { font-family: var(--font-body); font-size: 0.78rem; color: var(--grey); }
-    .stars { color: var(--gold); font-size: 0.88rem; letter-spacing: 2px; margin-bottom: 0.5rem; }
+    #diferenciais { padding: 110px 0; background: var(--white); }
+    .diff-header { margin-bottom: 3.5rem; text-align: center; }
+    .diff-header .section-desc { margin: 0 auto; }
+    .diff-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.8rem; }
+    .diff-card { background: var(--bg); padding: 2.4rem 2rem; position: relative; border-radius: 14px; transition: all 0.3s; border-left: 3px solid var(--primary); }
+    .diff-card:hover { border-left-color: var(--accent); transform: translateY(-4px); }
+    .diff-card .diff-icon { width: 52px; height: 52px; border-radius: 12px; background: var(--primary); color: var(--accent-light); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1.2rem; }
+    .diff-card h3 { font-family: var(--font-display); font-size: 1.2rem; color: var(--primary-dark); font-weight: 700; margin-bottom: 0.6rem; }
+    .diff-card p { font-family: var(--font-body); font-size: 0.96rem; line-height: 1.7; color: var(--ink-soft); }
 
     #contato { padding: 110px 0 0; background: var(--bg); }
     .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 4.5rem; }
@@ -167,8 +164,8 @@
     .modal-box .modal-company-data p { font-size: 0.95rem; color: var(--primary-dark); }
     hr.modal-divider { border: none; border-top: 1px solid var(--line); margin: 2.2rem 0; }
 
-    .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
-    .reveal.visible { opacity: 1; transform: none; }
+    .js .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .js .reveal.visible { opacity: 1; transform: none; }
 
     @media (max-width: 900px) {
       .nav-links { display: none; }
@@ -176,13 +173,14 @@
       .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 80px; left: 0; right: 0; background: var(--white); padding: 1.5rem 4vw; gap: 1.2rem; border-bottom: 1px solid var(--line); }
       .about-grid { grid-template-columns: 1fr; gap: 3rem; }
       .services-grid { grid-template-columns: 1fr 1fr; }
-      .testimonials-grid { grid-template-columns: 1fr; }
+      .diff-grid { grid-template-columns: 1fr; }
       .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
       .footer-top { grid-template-columns: 1fr; gap: 2.5rem; }
       .form-row { grid-template-columns: 1fr; }
     }
     @media (max-width: 580px) { .services-grid { grid-template-columns: 1fr; } .hero-stats { gap: 2rem; } }
   </style>
+  <script>document.documentElement.classList.add('js');document.addEventListener('DOMContentLoaded',function(){setTimeout(function(){document.querySelectorAll('.reveal').forEach(function(e){e.classList.add('visible');});},1800);});</script>
 </head>
 <body>
 
@@ -193,26 +191,26 @@
   </a>
   <ul class="nav-links" id="navLinks">
     <li><a href="#sobre">Sobre</a></li>
-    <li><a href="#servicos">Departamentos</a></li>
-    <li><a href="#depoimentos">Clientes</a></li>
-    <li><a href="#contato" class="nav-cta">Visitar Loja</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#diferenciais">Diferenciais</a></li>
+    <li><a href="#contato" class="nav-cta">Fale Conosco</a></li>
   </ul>
   <button class="nav-hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
 </nav>
 
 <section id="hero">
-  <div class="hero-ornament" style="background:radial-gradient(circle at 30% 30%, #e85e5e, #d92c2c);border-radius:50%"></div>
+  <div class="hero-ornament" style="background:radial-gradient(circle at 30% 30%, #f25c5c, #d92c2c);border-radius:50%;filter:blur(1px);"></div>
   <div class="hero-content">
     <div class="hero-tag">Vila Santa Rosa · Guarujá/SP</div>
-    <h1>Cuidado<br><span class="accent">com você sempre.</span></h1>
-    <p class="hero-desc">Drogaria com medicamentos, cosméticos, perfumaria e produtos de higiene pessoal em Guarujá – SP. Atendimento próximo e variedade.</p>
+    <h1>Sua farmácia<br><span class="accent">de confiança.</span></h1>
+    <p class="hero-desc">Medicamentos, cosméticos, perfumaria e produtos de higiene com atendimento próximo no Guarujá – SP. Cuidado, variedade e preço justo para toda a família.</p>
     <div class="hero-actions">
-      <a href="#contato" class="btn-primary">💊 Visitar a Loja</a>
-      <a href="#servicos" class="btn-secondary">Nossos Departamentos →</a>
+      <a href="#contato" class="btn-primary">💊 Fale Conosco</a>
+      <a href="#servicos" class="btn-secondary">Nossos Serviços →</a>
     </div>
     <div class="hero-stats">
-      <div class="stat-item"><div class="stat-num">2022</div><div class="stat-label">Atendendo desde</div></div>
-      <div class="stat-item"><div class="stat-num">B2C</div><div class="stat-label">Atendimento direto</div></div>
+      <div class="stat-item"><div class="stat-num">2022</div><div class="stat-label">Atuando desde</div></div>
+      <div class="stat-item"><div class="stat-num">Farma</div><div class="stat-label">Produtos farmacêuticos</div></div>
       <div class="stat-item"><div class="stat-num">SP</div><div class="stat-label">Guarujá &amp; região</div></div>
     </div>
   </div>
@@ -227,22 +225,22 @@
         <div class="about-icon-item">
           <span class="icon">💊</span>
           <h4>Medicamentos</h4>
-          <p>Sem manipulação</p>
-        </div>
-        <div class="about-icon-item">
-          <span class="icon">💄</span>
-          <h4>Cosméticos</h4>
-          <p>Beleza e cuidado</p>
+          <p>Produtos farmacêuticos</p>
         </div>
         <div class="about-icon-item">
           <span class="icon">🧴</span>
-          <h4>Higiene Pessoal</h4>
-          <p>Perfumaria</p>
+          <h4>Cosméticos</h4>
+          <p>Perfumaria e higiene</p>
         </div>
         <div class="about-icon-item">
           <span class="icon">🍬</span>
           <h4>Conveniência</h4>
-          <p>Doces &amp; alimentícios</p>
+          <p>Doces, balas e bombons</p>
+        </div>
+        <div class="about-icon-item">
+          <span class="icon">🛒</span>
+          <h4>Variedade</h4>
+          <p>Itens do dia a dia</p>
         </div>
           </div>
         </div>
@@ -250,9 +248,9 @@
       <div class="about-text reveal">
         <div class="section-kicker">A drogaria</div>
         <h2 class="section-title">Saúde com <em>cuidado</em></h2>
-        <p>A <strong>Drogaria Santo Antônio</strong> é sediada em Guarujá – SP, com atividade principal em comércio varejista de produtos farmacêuticos sem manipulação de fórmulas (CNAE 47.71-7-01).</p>
-        <p>Oferecemos medicamentos, cosméticos, produtos de perfumaria e higiene pessoal (CNAE 47.72-5-00), doces e produtos alimentícios em geral, com atendimento atencioso e curadoria de marcas confiáveis.</p>
-        <p>Atendimento próximo, variedade de produtos e preços justos. Situação cadastral <strong>ATIVA</strong> perante a Receita Federal desde 2022.</p>
+        <p>A <strong>Drogaria Santo Antônio</strong> (Drogaria Santo Antonio III do Guarujá) fica na Vila Santa Rosa, em Guarujá – SP, especializada no comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas (CNAE 47.71-7-01).</p>
+        <p>Oferecemos também cosméticos, perfumaria e higiene pessoal (CNAE 47.72-5-00), além de doces, balas e itens de conveniência (CNAE 47.21-1-04) e produtos alimentícios variados (CNAE 47.29-6-99) para facilitar o seu dia a dia.</p>
+        <p>Compromisso com atendimento próximo, responsável e preço justo.</p>
         <div class="cnpj-badge"><span>CNPJ:</span><strong>48.308.433/0001-35</strong></div>
       </div>
     </div>
@@ -262,90 +260,73 @@
 <section id="servicos">
   <div class="section-inner">
     <div class="services-header reveal">
-      <div class="section-kicker">Departamentos</div>
-      <h2 class="section-title">O que <em>encontrar</em></h2>
-      <p class="section-desc">Drogaria completa com medicamentos, cosméticos, perfumaria, higiene pessoal e conveniência.</p>
+      <div class="section-kicker">Nossos serviços</div>
+      <h2 class="section-title">O que <em>oferecemos</em></h2>
+      <p class="section-desc">Medicamentos, cosméticos, higiene e conveniência reunidos em um só lugar, com atendimento próximo no Guarujá.</p>
     </div>
     <div class="services-grid">
       <div class="service-card reveal">
-        <div class="service-number">Dept. 01</div>
+        <div class="service-number">Serviço 01</div>
         <span class="service-icon">💊</span>
         <h3>Medicamentos</h3>
-        <p>Atividade principal (CNAE 47.71-7-01). Produtos farmacêuticos sem manipulação de fórmulas.</p>
+        <p>Comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas (CNAE 47.71-7-01).</p>
       </div>
       <div class="service-card reveal">
-        <div class="service-number">Dept. 02</div>
-        <span class="service-icon">💄</span>
+        <div class="service-number">Serviço 02</div>
+        <span class="service-icon">🧴</span>
         <h3>Cosméticos &amp; Perfumaria</h3>
-        <p>Cosméticos, perfumaria e higiene pessoal (CNAE 47.72-5-00) com curadoria de marcas.</p>
+        <p>Cosméticos, produtos de perfumaria e de higiene pessoal para todos os perfis (CNAE 47.72-5-00).</p>
       </div>
       <div class="service-card reveal">
-        <div class="service-number">Dept. 03</div>
+        <div class="service-number">Serviço 03</div>
+        <span class="service-icon">🧼</span>
+        <h3>Higiene Pessoal</h3>
+        <p>Itens de cuidado e higiene diária para toda a família, com variedade e preço acessível.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-number">Serviço 04</div>
         <span class="service-icon">🍬</span>
-        <h3>Doces &amp; Bombons</h3>
-        <p>Comércio de doces, balas, bombons e semelhantes (CNAE 47.21-1-04).</p>
+        <h3>Doces &amp; Conveniência</h3>
+        <p>Comércio varejista de doces, balas, bombons e semelhantes (CNAE 47.21-1-04).</p>
       </div>
       <div class="service-card reveal">
-        <div class="service-number">Dept. 04</div>
-        <span class="service-icon">🥪</span>
-        <h3>Alimentícios</h3>
-        <p>Comércio de produtos alimentícios em geral e especializados (CNAE 47.29-6-99).</p>
+        <div class="service-number">Serviço 05</div>
+        <span class="service-icon">🛒</span>
+        <h3>Produtos Alimentícios</h3>
+        <p>Variedade de produtos alimentícios em geral para o dia a dia (CNAE 47.29-6-99).</p>
       </div>
       <div class="service-card reveal">
-        <div class="service-number">Dept. 05</div>
+        <div class="service-number">Serviço 06</div>
         <span class="service-icon">🤝</span>
-        <h3>Intermediação</h3>
-        <p>Atividades de intermediação e agenciamento de serviços e negócios em geral (CNAE 74.90-1-04).</p>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-number">Dept. 06</div>
-        <span class="service-icon">🏪</span>
         <h3>Atendimento Próximo</h3>
-        <p>Atendimento próximo na loja, com indicação atenciosa de produtos e preços justos.</p>
+        <p>Equipe atenciosa, pronta para orientar e ajudar com responsabilidade e cuidado.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="depoimentos">
+<section id="diferenciais">
   <div class="section-inner">
-    <div class="testimonials-header reveal">
-      <div class="section-kicker">Clientes</div>
-      <h2 class="section-title">O que dizem<br>nossos <em>clientes</em></h2>
+    <div class="diff-header reveal">
+      <div class="section-kicker">Por que nos escolher</div>
+      <h2 class="section-title">Nossos <em>diferenciais</em></h2>
+      <p class="section-desc">Os motivos que fazem da Drogaria Santo Antônio a escolha do bairro.</p>
     </div>
-    <div class="testimonials-grid">
-      <div class="testimonial-card reveal">
-        <div class="stars">★★★★★</div>
-        <p class="testimonial-text">Atendimento atencioso e sempre encontram meu remédio. Drogaria de confiança no bairro.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar">M</div>
-          <div>
-            <div class="author-name">Mariana C.</div>
-            <div class="author-role">Cliente — Guarujá/SP</div>
-          </div>
-        </div>
+    <div class="diff-grid">
+      <div class="diff-card reveal">
+        <div class="diff-icon">🏷️</div>
+        <h3>Variedade completa</h3>
+        <p>Medicamentos, cosméticos, higiene e conveniência reunidos em um só lugar, sem precisar de várias paradas.</p>
       </div>
-      <div class="testimonial-card reveal">
-        <div class="stars">★★★★★</div>
-        <p class="testimonial-text">Drogaria com tudo: do medicamento aos cosméticos. Preço justo e atendimento próximo.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar">P</div>
-          <div>
-            <div class="author-name">Pedro R.</div>
-            <div class="author-role">Cliente — Praia da Enseada/SP</div>
-          </div>
-        </div>
+      <div class="diff-card reveal">
+        <div class="diff-icon">🤝</div>
+        <h3>Atendimento próximo</h3>
+        <p>Equipe atenciosa, pronta para orientar com responsabilidade e tratar cada cliente como vizinho.</p>
       </div>
-      <div class="testimonial-card reveal">
-        <div class="stars">★★★★★</div>
-        <p class="testimonial-text">Sempre passo aqui quando viajo pra Guarujá. Atendimento e preço melhores que outras drogarias da região.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar">L</div>
-          <div>
-            <div class="author-name">Lúcia T.</div>
-            <div class="author-role">Cliente — São Paulo/SP</div>
-          </div>
-        </div>
+      <div class="diff-card reveal">
+        <div class="diff-icon">📍</div>
+        <h3>Localização acessível</h3>
+        <p>No coração da Vila Santa Rosa, em Guarujá – SP, com fácil acesso para todo o bairro e região.</p>
       </div>
     </div>
   </div>
@@ -356,13 +337,13 @@
     <div class="contact-grid">
       <div class="contact-info-block reveal">
         <div class="section-kicker">Fale conosco</div>
-        <h2 class="section-title">Venha<br>nos <em>visitar</em></h2>
-        <p class="section-desc" style="margin-bottom:2.5rem">Entre em contato para tirar dúvidas sobre produtos, disponibilidade ou para encomendas especiais.</p>
+        <h2 class="section-title">Estamos<br><em>pertinho</em> de você</h2>
+        <p class="section-desc" style="margin-bottom:2.5rem">Entre em contato para verificar disponibilidade de produtos, tirar dúvidas ou conhecer nossa loja na Vila Santa Rosa.</p>
 
         <div class="contact-item"><div class="contact-icon">📍</div><div><h4>Endereço</h4><p>AV MIGUEL MUSSA GAZE, 711<br>LOJA 1<br>VILA SANTA ROSA<br>GUARUJA – SP<br>CEP: 11.431-120</p></div></div>
-        <div class="contact-item"><div class="contact-icon">📞</div><div><h4>Telefone</h4><a href="tel:+55551333847560">(13) 3384-7560</a></div></div>
+        <div class="contact-item"><div class="contact-icon">📞</div><div><h4>Telefone</h4><a href="tel:+5531999486985">(31) 99948-6985</a></div></div>
         <div class="contact-item"><div class="contact-icon">✉️</div><div><h4>E-mail</h4><a href="mailto:TECNOLARCONTABIL@TERRA.COM.BR">TECNOLARCONTABIL@TERRA.COM.BR</a></div></div>
-        <div class="contact-item"><div class="contact-icon">🕐</div><div><h4>Horário de Atendimento</h4><p>Segunda a Sábado: 08h – 22h<br>Domingo: 09h – 20h</p></div></div>
+        <div class="contact-item"><div class="contact-icon">🕐</div><div><h4>Horário de Atendimento</h4><p>Segunda a Sábado: 08h – 22h<br>Domingo: 08h – 13h</p></div></div>
       </div>
 
       <div class="contact-form-block reveal">
@@ -374,18 +355,17 @@
           </div>
           <div class="form-group"><label>E-mail</label><input type="email" placeholder="seu@email.com"></div>
           <div class="form-group">
-            <label>Interesse</label>
+            <label>Assunto</label>
             <select>
               <option value="">Selecione...</option>
               <option>Medicamentos</option>
-              <option>Cosméticos</option>
-              <option>Perfumaria</option>
+              <option>Cosméticos &amp; Perfumaria</option>
               <option>Higiene Pessoal</option>
-              <option>Doces / Alimentícios</option>
+              <option>Doces &amp; Conveniência</option>
               <option>Outro</option>
             </select>
           </div>
-          <div class="form-group"><label>Mensagem *</label><textarea rows="5" placeholder="Produto procurado, dúvida..." required></textarea></div>
+          <div class="form-group"><label>Mensagem *</label><textarea rows="5" placeholder="Produto desejado, dúvida ou observação..." required></textarea></div>
           <button type="submit" class="form-submit">💊 Enviar Mensagem</button>
           <div class="form-success" id="formSuccess">✓ Mensagem enviada! Retornaremos em breve.</div>
         </form>
@@ -395,7 +375,7 @@
 
   <div class="map-stripe">
     <p>📍 <strong>AV MIGUEL MUSSA GAZE, 711, LOJA 1, VILA SANTA ROSA, GUARUJA – SP, CEP 11.431-120</strong></p>
-    <a href="https://maps.google.com/?q=Av+Miguel+Mussa+Gaze+711+Vila+Santa+Rosa+Guaruja+SP" target="_blank" class="map-link">Ver no Maps →</a>
+    <a href="https://maps.google.com/?q=AV+MIGUEL+MUSSA+GAZE+711+VILA+SANTA+ROSA+GUARUJA+SP" target="_blank" class="map-link">Ver no Maps →</a>
   </div>
 </section>
 
@@ -404,24 +384,23 @@
     <div class="footer-top">
       <div class="footer-brand">
         <h2>Drogaria <span>Santo Antônio</span></h2>
-        <p>Drogaria com medicamentos, cosméticos, perfumaria e produtos de higiene pessoal em Guarujá – SP.</p>
+        <p>Medicamentos, cosméticos, perfumaria e conveniência com atendimento próximo no Guarujá – SP.</p>
         <div class="footer-official">
           <div class="footer-official-title">Dados Oficiais da Empresa</div>
           <p><strong>DROGARIA SANTO ANTONIO III DO GUARUJA LTDA</strong><br>
           CNPJ: <strong>48.308.433/0001-35</strong><br>
           AV MIGUEL MUSSA GAZE, 711 / LOJA 1 / VILA SANTA ROSA / GUARUJA – SP / CEP: 11.431-120<br>
-          Tel: (13) 3384-7560<br>
+          Tel: (31) 99948-6985<br>
           E-mail: TECNOLARCONTABIL@TERRA.COM.BR</p>
         </div>
       </div>
       <div class="footer-col">
-        <h4>Departamentos</h4>
+        <h4>Serviços</h4>
         <ul>
           <li><a href="#servicos">Medicamentos</a></li>
           <li><a href="#servicos">Cosméticos</a></li>
-          <li><a href="#servicos">Perfumaria</a></li>
-          <li><a href="#servicos">Higiene</a></li>
-          <li><a href="#servicos">Doces</a></li>
+          <li><a href="#servicos">Higiene Pessoal</a></li>
+          <li><a href="#servicos">Doces &amp; Conveniência</a></li>
           <li><a href="#servicos">Alimentícios</a></li>
         </ul>
       </div>
@@ -429,7 +408,7 @@
         <h4>Institucional</h4>
         <ul>
           <li><a href="#sobre">Sobre Nós</a></li>
-          <li><a href="#depoimentos">Clientes</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
           <li><a href="#contato">Contato</a></li>
           <li><a href="/privacy">Política de Privacidade</a></li>
           <li><a href="#" onclick="openModal('terms')">Termos de Uso</a></li>
@@ -439,7 +418,7 @@
     <div class="footer-bottom">
       <div class="footer-legal">
         <p>© 2026 <strong>DROGARIA SANTO ANTONIO III DO GUARUJA LTDA</strong> - Todos os direitos reservados.</p>
-        <p>CNPJ: <strong>48.308.433/0001-35</strong> · AV MIGUEL MUSSA GAZE, 711, LOJA 1, VILA SANTA ROSA, GUARUJA – SP, CEP: 11.431-120 · Tel: (13) 3384-7560</p>
+        <p>CNPJ: <strong>48.308.433/0001-35</strong> · AV MIGUEL MUSSA GAZE, 711, LOJA 1, VILA SANTA ROSA, GUARUJA – SP, CEP: 11.431-120 · Tel: (31) 99948-6985</p>
       </div>
       <div class="footer-policy-links">
         <a href="/privacy">Privacidade</a>
@@ -457,16 +436,16 @@
     <div class="modal-company-data">
       <p><strong>DROGARIA SANTO ANTONIO III DO GUARUJA LTDA</strong> | CNPJ: 48.308.433/0001-35<br>
       AV MIGUEL MUSSA GAZE, 711, LOJA 1 – VILA SANTA ROSA – GUARUJA – SP – CEP: 11.431-120<br>
-      E-mail: TECNOLARCONTABIL@TERRA.COM.BR | Tel: (13) 3384-7560</p>
+      E-mail: TECNOLARCONTABIL@TERRA.COM.BR | Tel: (31) 99948-6985</p>
     </div>
     <h3>1. Aceitação dos termos</h3>
     <p>Ao acessar e utilizar este site, você concorda com os presentes Termos de Uso.</p>
     <h3>2. Sobre a empresa</h3>
-    <p>Este site pertence à DROGARIA SANTO ANTONIO III DO GUARUJA LTDA, empresa regularmente constituída, com CNPJ 48.308.433/0001-35, situação cadastral ATIVA perante a Receita Federal, atuante em comércio varejista de produtos farmacêuticos sem manipulação de fórmulas (CNAE 47.71-7-01), com atuação em comércio de doces, alimentícios em geral, cosméticos, perfumaria e higiene pessoal.</p>
+    <p>Este site pertence à DROGARIA SANTO ANTONIO III DO GUARUJA LTDA, empresa regularmente constituída, atuante no comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas (CNAE 47.71-7-01), além de cosméticos, perfumaria, higiene pessoal e itens de conveniência.</p>
     <h3>3. Uso do site</h3>
     <p>Este site tem finalidade informativa e comercial. É vedado utilizar o site para fins ilícitos, reproduzir conteúdo sem autorização ou submeter informações falsas.</p>
     <h3>4. Produtos e serviços</h3>
-    <p>As informações apresentadas são ilustrativas. Disponibilidade, valores e condições contratuais são confirmados após contato direto e formalização.</p>
+    <p>As informações apresentadas são ilustrativas. Disponibilidade, valores e condições são confirmados após contato direto e formalização. A dispensação de medicamentos observa a legislação sanitária vigente.</p>
     <h3>5. Propriedade intelectual</h3>
     <p>Todo o conteúdo deste site é de propriedade da DROGARIA SANTO ANTONIO III DO GUARUJA LTDA e não pode ser reproduzido sem autorização.</p>
     <h3>6. Responsabilidade</h3>
@@ -499,7 +478,7 @@
   function openModal(id) { event.preventDefault(); document.getElementById('modal-' + id).classList.add('open'); document.body.style.overflow = 'hidden'; }
   function closeModal(id) { document.getElementById('modal-' + id).classList.remove('open'); document.body.style.overflow = ''; }
   document.querySelectorAll('.modal-overlay').forEach(m => { m.addEventListener('click', e => { if (e.target === m) { m.classList.remove('open'); document.body.style.overflow = ''; } }); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') { document.querySelectorAll('.modal-overlay.open').forEach(m => { m.classList.remove('open'); document.body.style.overflow = ''; }); } });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { document.querySelectorAll('.modal-overlay.open').forEach(m => { m.classList.remove('open'); document.body.style.overflow = ''; } }); });
 </script>
 </body>
 </html>
